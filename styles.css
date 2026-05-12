@@ -92,7 +92,8 @@ ul{
 .information{
     margin-left: 150px;
     margin-right: 75px;
-    height: 100vh;
+    margin-bottom: 80px;
+    height: 80vh;
     /* display: flex; */
 }
 /* information header text 36px weight 900, #1F2937 */
@@ -110,8 +111,13 @@ ul{
     gap: 50px;
     /* text-align: center; */
 }
+
+figure{
+   
+    width: 180px;
+}
 .box{
-    height: 200px;
+    height: 180px;
     width: 180px;
     border: 4px solid rgba(9, 90, 241, 0.904);
     border-radius: 15px;
@@ -119,8 +125,25 @@ ul{
 }
 figcaption{
     text-align: center;
-   
-    /* text-wrap: wrap; */
-    
+    font-size: 20px;
 }
    
+.article{
+    background-color:  #E5E7EB;
+    height: 400px;
+    width: 100%;
+    font-size: 36px;
+    font-style: italic;
+
+
+}
+
+blockquote{
+   margin-left: 200px;
+   margin-right: 75px;
+   padding-top: 160px;
+}
+article p{
+    text-align: right;
+    margin-right: 80px;
+}
