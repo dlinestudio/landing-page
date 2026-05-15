@@ -78,7 +78,7 @@ ul{
     width: 700px;
 }
 /* button color#3882F6 */
-.hero-section button{
+ button{
     background-color: #3882F6;
     font-size: 18px;
     font-weight: 400;
@@ -87,6 +87,7 @@ ul{
     margin-top: 20px;
     border-radius: 8px;
     color: #E5E7EB;
+    border-color: #3882F6;
 }
 
 .information{
@@ -130,7 +131,7 @@ figcaption{
    
 .article{
     background-color:  #E5E7EB;
-    height: 400px;
+    height: 450px;
     width: 100%;
     font-size: 36px;
     font-style: italic;
@@ -139,11 +140,46 @@ figcaption{
 }
 
 blockquote{
-   margin-left: 200px;
+   margin-left: 250px;
    margin-right: 75px;
    padding-top: 160px;
 }
 article p{
     text-align: right;
-    margin-right: 80px;
+    margin-right: 100px;
+    margin-left: 150px;
+}
+
+.call-to-action{
+    height: 280px;
+}
+
+.action{
+    width: 1000px;
+    height: 150px;
+    margin: 100px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    color: #F9FAF8;
+}
+.action-text{
+    text-align: center;
+    padding: 50px;
+    font-size: 18px;
+}
+.action button{
+    border-color: #F9FAF8;
+    margin: 50px;
+}
+
+footer{
+    background-color: #1F2937;
+    text-align: center;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 20px;
+    height: 80px;
 }
